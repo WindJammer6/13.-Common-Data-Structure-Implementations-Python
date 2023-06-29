@@ -8,7 +8,7 @@ class DoublyLinkedList:
     def __init__(self):
         self.head = None
 
-    def print(self):
+    def print_doubly_linked_list(self):
         if self.head is None:
             print("Linked list is empty")
             return
@@ -19,7 +19,7 @@ class DoublyLinkedList:
             itr = itr.next
         print(llstr)
 
-    def get_length(self):
+    def get_length_of_doubly_linked_list(self):
         count = 0
         itr = self.head
         while itr:
@@ -28,7 +28,7 @@ class DoublyLinkedList:
 
         return count
 
-    def insert_at_beginning(self, data):
+    def insert_node_at_beginning(self, data):
         if self.head is None:
             node = Node(data, self.head, None)
             self.head = node
@@ -50,7 +50,7 @@ class DoublyLinkedList:
 
             itr.next = Node(data, None, itr)             
 
-    def insert_at(self, index, data):
+    def insert_at_index(self, index, data):
         if index<0 or index>self.get_length():
             raise Exception("Invalid Index")
 
@@ -71,7 +71,7 @@ class DoublyLinkedList:
             itr = itr.next
             count += 1
 
-    def remove_at(self, index):
+    def remove_at_index(self, index):
         if index<0 or index>=self.get_length():
             raise Exception("Invalid Index")
 
@@ -92,7 +92,7 @@ class DoublyLinkedList:
             itr = itr.next
             count+=1
 
-    def insert_values(self, data_list):
+    def insert_multiple_values_at_index(self, data_list):
         self.head = None
         for data in data_list:
             self.insert_at_end(data)
