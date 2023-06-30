@@ -56,6 +56,6 @@ if __name__ == '__main__':
     print(samplehashtable['march 17'])
 
     #__delitem__
-    del samplehashtable['march 9']
-    del samplehashtable['march 6']
+    #del samplehashtable['march 9']
+    #del samplehashtable['march 6']
     print(samplehashtable.arr)
