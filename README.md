@@ -77,7 +77,7 @@ I understand that there is already a Hash Table Data Structure implementation in
 
 This Hash Table implementation in Python handles collisions via Seperate Chaining.
 
-Here are the Instance Methods and functions available in the 'HashTable' classes:
+Here are the Instance Methods and functions available in the 'HashTable' class:
 + Under the "HashTable' class:
   + __init__ (Special Method)
   + get_hash (Instance Method)
