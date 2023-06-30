@@ -75,6 +75,8 @@ banana <--> mango <--> grapes <--> orange
 ### Hash Table Data Structure <a name = "hashtable"></a>
 I understand that there is already a Hash Table Data Structure implementation in Python as the built-in data type, Dictionaries. However I believe we can learn a lot more about Hash Tables and how Python's Dictionaries work from learning how to re-implement Hash Tables in Python.
 
+This Hash Table implementation in Python handles collisions via Seperate Chaining.
+
 Here are the Instance Methods and functions available in the 'HashTable' classes:
 + Under the "HashTable' class:
   + __init__ (Special Method)
@@ -83,9 +85,9 @@ Here are the Instance Methods and functions available in the 'HashTable' classes
   + __getitem__ (Special Method)
   + __delitem__ (Special Method)
 
-Visualisation of the Hash Table Data Structure (from using Python's 'print()' on the 'HashTable' object's '.arr' attribute):
+Visualisation of the Hash Table Data Structure (from using Python's 'print()' function on the 'HashTable' object's '.arr' attribute):
 ```
-
+[[], [('march 8', 380)], [('march 9', 302)], [], [], [], [], [], [], [('march 6', 110), ('march 17', 450)]]
 ```
 
 <br>
