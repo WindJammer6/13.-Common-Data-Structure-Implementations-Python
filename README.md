@@ -26,9 +26,9 @@ Note: Arrays are also a very common Data Structure, however, it is a bit redunda
 ### Singly Linked List Data Structure <a name = "singlylinkedlist"></a>
 Here are the Instance Methods and functions available in the 'Node' and 'LinkedList' classes:
 + Under the 'Node' class:
-   + __init__ (Instance Method)
+   + __init__ (Special Method)
 + Under the 'LinkedList' class:
-   + __init__ (Instance Method)
+   + __init__ (Special Method)
    + insert_node_at_beginning (Instance Method)
    + insert_at_end (Instance Method)
    + get_length_of_linked_list (Instance Method)
@@ -50,9 +50,9 @@ Visualisation of the Singly Linked List Data Structure (from 'print_linked_list(
 ### Doubly Linked List Data Structure <a name = "doublylinkedlist"></a>
 Here are the Instance Methods and functions available in the 'Node' and 'DoublyLinkedList' classes:
 + Under the 'Node' class:
-   + __init__ (Instance Method)
+   + __init__ (Special Method)
 + Under the 'DoublyLinkedList' class:
-   + __init__ (Instance Method)
+   + __init__ (Special Method)
    + insert_node_at_beginning (Instance Method)
    + insert_at_end (Instance Method)
    + get_length_of_doubly_linked_list (Instance Method)
@@ -77,7 +77,7 @@ I understand that there is already a Hash Table Data Structure implementation in
 
 Here are the Instance Methods and functions available in the 'HashTable' classes:
 + Under the "HashTable' class:
-  + __init__ (Instance Method)
+  + __init__ (Special Method)
   + get_hash (Instance Method)
   + __setitem__ (Special Method)
   + __getitem__ (Special Method)
