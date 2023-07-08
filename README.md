@@ -27,7 +27,7 @@ Here are the common Data Structure Python implementations in this compilation:
 Notes: 
 - Arrays are also a very common Data Structure, however, it is a bit redundant to try to re-implement them again in Python as there are already 3 different Array Data Structure implementations in Python as built-in data types, Lists, Sets and Tuples. Hence, I will be omitting Array Data Structures implementations in Python in this compilation.
 
-- This compilation is not exhaustive and there are many other types of sub-Data Structures that I feel are less common that I did not add to this compilation (e.g. sub-Data Structures of Linked Lists Data Structure - Singly Cirular Linked Lists and Doubly circular Linked List, and sub-Data Structures of Tree Data Structure - AVL Trees and Red-Black Trees)
+- This compilation is not exhaustive and there are many other types of sub-Data Structures that I feel are less common that I did not add to this compilation (e.g. sub-Data Structures of Linked List Data Structure - Singly Cirular Linked Lists and Doubly Circular Linked Lists, and sub-Data Structures of Tree Data Structure - AVL Trees and Red-Black Trees)
 
 <br>
 
