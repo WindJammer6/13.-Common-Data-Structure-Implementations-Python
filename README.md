@@ -35,7 +35,7 @@ Notes:
 
 ## Code Description <a name = "codedescription"></a>
 
-### Singly Linked List Data Structure <a name = "singlylinkedlist"></a>
+### [Singly Linked List Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/1.%20Singly_Linked_List.py) <a name = "singlylinkedlist"></a>
 Here are the Instance Methods and functions available in the 'Node' and 'LinkedList' classes:
 + Under the 'Node' class:
    + __init__ (Special Method)
@@ -59,7 +59,7 @@ Visualisation of the Singly Linked List Data Structure (from 'print_linked_list(
 
 <br>
 
-### Doubly Linked List Data Structure <a name = "doublylinkedlist"></a>
+### [Doubly Linked List Data Structure)](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/2.%20Doubly_Linked_List.py <a name = "doublylinkedlist"></a>
 Here are the Instance Methods and functions available in the 'Node' and 'DoublyLinkedList' classes:
 + Under the 'Node' class:
    + __init__ (Special Method)
@@ -84,7 +84,7 @@ banana <--> mango <--> grapes <--> orange
 
 <br>
 
-### Hash Table Data Structure <a name = "hashtable"></a>
+### 9Hash Table Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/3.%20Hash_Table.py) <a name = "hashtable"></a>
 I understand that there is already a Hash Table Data Structure implementation in Python as the built-in data type, Dictionaries. However I believe we can learn a lot more about Hash Tables and how Python's Dictionaries work from learning how to re-implement Hash Tables in Python.
 
 This Hash Table Data Structure implementation in Python handles collisions via Seperate Chaining.
@@ -106,7 +106,7 @@ Visualisation of the Hash Table Data Structure (from using Python's 'print()' fu
 
 <br>
 
-### Stack Data Structure <a name = "stack"></a>
+### [Stack Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/4.%20Stack.py) <a name = "stack"></a>
 This Stack Data Structure implementation in Python is created using the 'deque' (or Double-Ended Queue) special Data Structure from Python's 'collections' library.
 
 Here are the Instance Methods and functions available in the 'Stack' class:
@@ -128,7 +128,7 @@ deque([67, 7, 748])
 
 <br>
 
-### Queue Data Structure <a name = "queue"></a>
+### [Queue Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/5.%20Queue.py) <a name = "queue"></a>
 This Queue Data Structure implementation in Python is created using the 'deque' (or Double-Ended Queue) special Data Structure from Python's 'collections' library.
 
 Here are the Instance Methods and functions available in the 'Queue' class:
@@ -149,7 +149,7 @@ deque([{'company': 'Walmart', 'timestamp': '15 apr, 11.03am', 'price': 135}, {'c
 
 <br>
 
-### General Tree Data Structure <a name = "generaltree"></a>
+### [General Tree Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/6.%20General_Tree.py) <a name = "generaltree"></a>
 Here are the Instance Methods and functions available in the 'GeneralTreeNode' class:
 + Under the ‘GeneralTreeNode' class:
    + _init_ (Special Method)
@@ -178,7 +178,7 @@ Electronics
 
 <br>
 
-### Binary Search Tree Data Structure <a name = "binarysearchtree"></a>
+### [Binary Search Tree Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/7.%20Binary_Search_Tree.py) <a name = "binarysearchtree"></a>
 Here are the Instance Methods and functions available in the 'BinarySearchTreeNode' class:
 + Under the ‘BinarySearchTreeNode' class:
    + _init_ (Special Method)
