@@ -84,7 +84,7 @@ banana <--> mango <--> grapes <--> orange
 
 <br>
 
-### 9Hash Table Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/3.%20Hash_Table.py) <a name = "hashtable"></a>
+### [Hash Table Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/3.%20Hash_Table.py) <a name = "hashtable"></a>
 I understand that there is already a Hash Table Data Structure implementation in Python as the built-in data type, Dictionaries. However I believe we can learn a lot more about Hash Tables and how Python's Dictionaries work from learning how to re-implement Hash Tables in Python.
 
 This Hash Table Data Structure implementation in Python handles collisions via Seperate Chaining.
