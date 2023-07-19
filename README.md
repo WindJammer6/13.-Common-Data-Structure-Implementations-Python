@@ -29,6 +29,7 @@ Here are the common Data Structure Python implementations in this compilation:
         + [Adjacency List Undirected Graph Data Structure](#graph)
         + [Adjacency List Directed Weighted Graph Data Structure](#graph)
         + [Adjacency List Undirected Weighted Graph Data Structure](#graph)
+        
 Notes: 
 - Arrays are also a very common Data Structure, however, it is a bit redundant to try to re-implement them again in Python as there are already 3 different Array Data Structure implementations in Python as built-in data types, Lists, Sets and Tuples. Hence, I will be omitting Array Data Structures implementations in Python in this compilation.
 
