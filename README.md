@@ -59,7 +59,7 @@ Visualisation of the Singly Linked List Data Structure (from 'print_linked_list(
 
 <br>
 
-### [Doubly Linked List Data Structure)](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/2.%20Doubly_Linked_List.py <a name = "doublylinkedlist"></a>
+### [Doubly Linked List Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/2.%20Doubly_Linked_List.py <a name = "doublylinkedlist"></a>
 Here are the Instance Methods and functions available in the 'Node' and 'DoublyLinkedList' classes:
 + Under the 'Node' class:
    + __init__ (Special Method)
