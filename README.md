@@ -23,9 +23,16 @@ Here are the common Data Structure Python implementations in this compilation:
    5. Tree Data Structures:
       + [General Tree Data Structure](#generaltree)
       + [Binary Search Tree Data Structure](#binarysearchtree)
-
+   6. Graph Data Structures:
+      + Adjacency List Graph Data Structures:
+        + [Adjacency List Directed Graph Data Structure](#graph)
+        + [Adjacency List Undirected Graph Data Structure](#graph)
+        + [Adjacency List Directed Weighted Graph Data Structure](#graph)
+        + [Adjacency List Undirected Weighted Graph Data Structure](#graph)
 Notes: 
 - Arrays are also a very common Data Structure, however, it is a bit redundant to try to re-implement them again in Python as there are already 3 different Array Data Structure implementations in Python as built-in data types, Lists, Sets and Tuples. Hence, I will be omitting Array Data Structures implementations in Python in this compilation.
+
+- Adjacency Matrix Graph Data Structures are also a common method of representing Graphs. However, I feel that the Adjacency List Graph Data Structure is more common (from what I've seen online), and that it is easier to understand (at least to me). Hence I will only be including the various types of Adjacency List Graph Data Structures in this compilation.
 
 - This compilation is not exhaustive and there are many other types of sub-Data Structures that I feel are less common that I did not add to this compilation (e.g. sub-Data Structures of Linked List Data Structure - Singly Cirular Linked Lists and Doubly Circular Linked Lists, and sub-Data Structures of Tree Data Structure - AVL Trees and Red-Black Trees)
 
@@ -204,4 +211,57 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
         -> 14
     -> 12
         -> 7
+```
+
+<br>
+
+<br>
+
+### [Graph Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/7.%20Binary_Search_Tree.py) <a name = "graph"></a>
+This Graph Data Structure is implemented using an Adjacency List. There is another common way to implement Graph Data Structures, as an Adjacency Matrix, but I find Adjacency List Graph Data Structures easier to understand.
+
+I have made the 4 different types of Graph Data Structures:
+1. Adjacency List Directed Graph
+2. Adjacency List Undirected Graph
+3. Adjacency List Directed Weighted Graph
+4. Adjacency List Undirected Weighted Graph.
+
+They are mostly quite similar, and with good understanding of Graph Data Structures and with slight modifications to one of them, I am able to convert it to the other types.
+
+All 4 of them have the same Instance Methods and functions, with slight differences in code in some of the Instance Methods and functions due to the different properties of the different Graph Data Structures.
+
+Here are the Instance Methods and functions available in the ‘AdjacencyListDirectedGraph'/‘AdjacencyListUndirectedGraph'/‘AdjacencyListDirectedWeightedGraph'/‘AdjacencyListUndirectedWeightedGraph' class:
++ Under the ‘AdjacencyListDirectedGraph'/‘AdjacencyListUndirectedGraph'/‘AdjacencyListDirectedWeightedGraph'/‘AdjacencyListUndirectedWeightedGraph' class:
+   + _init_ (Special Method)
+   + add_node (Instance Method)
+   + add_edge (Instance Method)
+   + delete_node (Instance Method)
+   + delete_edge (Instance Method)
+   + breadth_first_search (Instance Method)
+   + depth_first_search (Instance Method)
+   + get_all_possible_paths (Instance Method)
+   + get_shortest_path (Instance Method)
+   + __repr__ (Special Method)
+
+Visualisation of the Adjacency List Graph Data Structure (from Python’s ‘print()’ function on the ‘AdjacencyListDirectedGraph’ object and ‘__repr__’):
+```
+{'Mumbai': ['Paris', 'Dubai'], 'Paris': ['Dubai', 'New York'], 'Dubai': ['New York'], 'New York': ['Toronto'], 'Toronto': []}
+```
+
+
+Visualisation of the Adjacency List Graph Data Structure (from Python’s ‘print()’ function on the ‘AdjacencyListUndirectedGraph’ object and ‘__repr__’):
+```
+{'Dhavel': ['Bhawin', 'David', 'Shukul', 'Rahul'], 'Bhawin': ['Dhavel', 'Nikisha'], 'David': ['Dhavel'], 'Shukul': ['Dhavel'], 'Rahul': ['Dhavel'], 'Nikisha': ['Bhawin']}
+```
+
+
+Visualisation of the Adjacency List Graph Data Structure (from Python’s ‘print()’ function on the ‘AdjacencyListDirectedWeightedGraph’ object and ‘__repr__’):
+```
+{'Mumbai': [('Paris', 2000), ('Dubai', 5000)], 'Paris': [('Dubai', 2000), ('New York', 8000)], 'Dubai': [('New York', 3000)], 'New York': [('Toronto', 400)], 'Toronto': []}
+```
+
+
+Visualisation of the Adjacency List Graph Data Structure (from Python’s ‘print()’ function on the ‘AdjacencyListUndirectedWeightedGraph’ object and ‘__repr__’):
+```
+{'Dhavel': [('Bhawin', 6), ('David', 3), ('Shukul', 10), ('Rahul', 8)], 'Bhawin': [('Dhavel', 6), ('Nikisha', 7)], 'David': [('Dhavel', 3)], 'Shukul': [('Dhavel', 10)], 'Rahul': [('Dhavel', 8)], 'Nikisha': [('Bhawin', 7)]}
 ```
