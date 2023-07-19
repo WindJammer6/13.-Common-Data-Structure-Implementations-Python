@@ -3,9 +3,9 @@
 A compilation of various common Data Structure implementations in Python.
 
 ## Thoughts on starting this compilation
-Searched the internet, however I haven't found a good compilation of the various common Data Structure implementations in Python. So I decided to make one for myself, or for anyone else who wish to use this compilation. Of course, every version of a Data Structure implementation is slightly different in terms of how they are implemented so if you wish to use the Data Structure Python implementations in this compilation for your personal projects you might need to have a understanding on how these implementations are created, so I strongly suggest you take a look at [codebasics' Youtube playlist on Data Structure and Algorithms](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12) that I got the Data Structure Python implementations from, or from looking at the seperate repository in my Github profile ['12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python'](https://github.com/WindJammer6/12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python)
+Searched the internet, however I haven't found a good compilation of the various common Data Structure implementations in Python. So I decided to make one for myself, or for anyone else who wish to use this compilation. Of course, every version of a Data Structure implementation is slightly different in terms of how they are implemented so if you wish to use the Data Structure Python implementations in this compilation for your personal projects you might need to have a understanding on how these implementations are created, so I strongly suggest you take a look at [codebasics' Youtube playlist on Data Structure and Algorithms](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12) and [[Amulya's Academy's Youtube channel](https://www.youtube.com/@AmulsAcademy) (for the Graph Data Structures Python implementation) that I got the Data Structure Python implementations from, or from looking at the seperate repository in my Github profile ['12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python'](https://github.com/WindJammer6/12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python)
 
-<ins>Disclaimer</ins>: These Data Structures Python implementations are done by Dhaval Patel, founder of the Youtube channel [codebasics](https://www.youtube.com/@codebasics), I did not create these Data Structure Python implementations, I merely compiled them while doing some minor changes as well as added some simple Instance Methods on the Data Structure Classes. 
+<ins>Disclaimer</ins>: Most of these Data Structures Python implementations are done by Dhaval Patel, founder of the Youtube channel [codebasics](https://www.youtube.com/@codebasics), while a big part of the Graph Data Structures are done by Amulya, where I got the code from her Youtube channel [Amulya's Academy](https://www.youtube.com/@AmulsAcademy). I did not create these Data Structure Python implementations, I merely compiled them while making some minor changes as well as added some simple Instance Methods on the Data Structure Classes. 
 
 <br>
 
@@ -217,16 +217,16 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
 
 <br>
 
-### [Graph Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/7.%20Binary_Search_Tree.py) <a name = "graph"></a>
-This Graph Data Structure is implemented using an Adjacency List. There is another common way to implement Graph Data Structures, as an Adjacency Matrix, but I find Adjacency List Graph Data Structures easier to understand.
+### Graph Data Structure <a name = "graph"></a>
+This Graph Data Structure is implemented using an Adjacency List. There is another common way to implement Graph Data Structures, as an Adjacency Matrix, but I find Adjacency List Graph Data Structures easier to understand. Please note that while Graph Data Structures should be able to take duplicates, but in these Graph Data Structure Python implementations I did not implement them to be able to. (I have a few ideas of how it can be done (I've shared them in my seperate repository ['12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python'](https://github.com/WindJammer6/12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python)), but it is too troublesome so I'll leave this as it is for now)
 
 I have made the 4 different types of Graph Data Structures:
-1. Adjacency List Directed Graph
-2. Adjacency List Undirected Graph
-3. Adjacency List Directed Weighted Graph
-4. Adjacency List Undirected Weighted Graph.
+1. [Adjacency List Directed Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/8.%20Adjacency_List_Directed_Graph.py)
+2. [Adjacency List Undirected Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/9.%20Adjacency_List_Undirected_Graph.py)
+3. [Adjacency List Directed Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/910.%20Adjacency_List_Directed_Weighted_Graph)
+4. [Adjacency List Undirected Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/911.%20Adjacency_List_Undirected_Weighted_Graph_Data_Structure.py)
 
-They are mostly quite similar, and with good understanding of Graph Data Structures and with slight modifications to one of them, I am able to convert it to the other types.
+They are mostly quite similar, with good understanding of Graph Data Structures and with slight modifications to one of them, I was able to quickly convert it to the other types.
 
 All 4 of them have the same Instance Methods and functions, with slight differences in code in some of the Instance Methods and functions due to the different properties of the different Graph Data Structures.
 
