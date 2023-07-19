@@ -231,7 +231,7 @@ They are mostly quite similar, with good understanding of Graph Data Structures 
 
 All 4 of them have the same Instance Methods and functions, with slight differences in code in some of the Instance Methods and functions due to the different properties of the different Graph Data Structures.
 
-Here are the Instance Methods and functions available in the ‘AdjacencyListDirectedGraph'/‘AdjacencyListUndirectedGraph'/‘AdjacencyListDirectedWeightedGraph'/‘AdjacencyListUndirectedWeightedGraph' class:
+Here are the Instance Methods and functions available in the ‘AdjacencyListDirectedGraph'/‘AdjacencyListUndirectedGraph'/‘AdjacencyListDirectedWeightedGraph'/‘AdjacencyListUndirectedWeightedGraph' classes:
 + Under the ‘AdjacencyListDirectedGraph'/‘AdjacencyListUndirectedGraph'/‘AdjacencyListDirectedWeightedGraph'/‘AdjacencyListUndirectedWeightedGraph' class:
    + _init_ (Special Method)
    + add_node (Instance Method)
