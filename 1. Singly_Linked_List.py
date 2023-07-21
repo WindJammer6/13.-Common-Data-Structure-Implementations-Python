@@ -119,7 +119,7 @@ if __name__ == '__main__':
     samplelinkedlist = LinkedList()
     samplelinkedlist2 = LinkedList()
 
-  
+
     samplelinkedlist.insert_node_at_beginning(5)
     samplelinkedlist.insert_node_at_beginning(89)
     samplelinkedlist.insert_node_at_beginning(86)
@@ -135,9 +135,6 @@ if __name__ == '__main__':
 
     samplelinkedlist.print_linked_list()
 
-    samplelinkedlist.insert_multiple_values_at_index(9, [1,2,3,4])
-    samplelinkedlist.print_linked_list()
-
 
     samplelinkedlist2.insert_node_at_beginning(70)
     samplelinkedlist2.insert_node_at_beginning(71)
@@ -149,3 +146,7 @@ if __name__ == '__main__':
 
     mergedlinkedlist = merge_linked_list_at_end(samplelinkedlist, samplelinkedlist2)
     mergedlinkedlist.print_linked_list()
+
+
+    samplelinkedlist.insert_multiple_values_at_index(9, [1,2,3,4])
+    samplelinkedlist.print_linked_list()
