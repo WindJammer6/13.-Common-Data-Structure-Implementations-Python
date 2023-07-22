@@ -15,6 +15,12 @@ class Queue:
     
     def size(self):
         return len(self.buffer)
+
+    def front_element(self):
+        return self.buffer[-1]
+    
+    def last_element(self):
+        return self.buffer[0]
     
     def __repr__(self):
         return '{}'.format(self.buffer)
@@ -49,6 +55,10 @@ if __name__ == '__main__':
         'timestamp':'15 apr, 11.03am',
         'price': 135
     })
+
+    print(queue.front_element())
+    print(queue.last_element())
+    
     print(queue.dequeue())
     print(queue.size())
     print(queue)
