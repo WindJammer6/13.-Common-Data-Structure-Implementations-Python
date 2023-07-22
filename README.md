@@ -144,6 +144,8 @@ Here are the Instance Methods and functions available in the 'Queue' class:
    + _init_ (Special Method)
    + enqueue (Instance Method)
    + dequeue (Instance Method)
+   + front_element (Instance Method)
+   + last_element (Instance Method)
    + is_empty (Instance Method)
    + size (Instance Method)
    + __repr__ (Special Method)
