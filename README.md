@@ -14,16 +14,16 @@ Searched the internet, however I haven't found a good compilation of the various
 ## Table of Contents
 Here are the common Data Structure Python implementations in this compilation:
 + [Code Description](#codedescription)
-   1. Linked List Data Structures:
+   + Linked List Data Structures:
       + [Singly Linked List Data Structure](#singlylinkedlist)
       + [Doubly Linked List Data Structure](#doublylinkedlist)
-   2. [Hash Table Data Structure](#hashtable)
-   3. [Stack Data Structure](#stack)
-   4. [Queue Data Structure](#queue)
-   5. Tree Data Structures:
+   + [Hash Table Data Structure](#hashtable)
+   + [Stack Data Structure](#stack)
+   + [Queue Data Structure](#queue)
+   + Tree Data Structures:
       + [General Tree Data Structure](#generaltree)
       + [Binary Search Tree Data Structure](#binarysearchtree)
-   6. Graph Data Structures:
+   + Graph Data Structures:
       + Adjacency List Graph Data Structures:
         + [Adjacency List Directed Graph Data Structure](#graph)
         + [Adjacency List Undirected Graph Data Structure](#graph)
