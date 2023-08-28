@@ -13,6 +13,8 @@ Searched the internet, however I haven't found a good compilation of the various
 
 ## Table of Contents
 Here are the common Data Structure Python implementations in this compilation:
++ [Big O Notation of Time and Space Complexity for the Data Structures](#bigonotation)
+
 + [Code Description](#codedescription)
    + Linked List Data Structures:
       + [Singly Linked List Data Structure](#singlylinkedlist)
@@ -36,6 +38,25 @@ Notes:
 - Adjacency Matrix Graph Data Structure is also a common method of representing Graphs. However, I feel that the Adjacency List Graph Data Structure is more common (from what I've seen online), and that it is easier to understand (at least to me). Hence I will only be including the various types of Adjacency List Graph Data Structures in this compilation.
 
 - This compilation is not exhaustive and there are many other types of sub-Data Structures that I feel are less common that I did not add to this compilation (e.g. sub-Data Structures of Linked List Data Structure - Singly Cirular Linked Lists and Doubly Circular Linked Lists, and sub-Data Structures of Tree Data Structure - AVL Trees and Red-Black Trees)
+
+<br>
+
+<br>
+
+## Big O Notation of Time and Space Complexity for the Data Structures<a name = "bigonotation"></a>
+| **Data Structures** | **Space Complexity**  | **Time Complexity** | **Search** | **Insertion** | **Deletion** |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+|       Array        |         O(n)	      |    O(1)	 |   O(n)   |   O(n)   |   O(n)   |
+| Singly Linked List |         O(n)	      |    O(n)    |   O(n)   |   O(1)   |   O(1)   |
+| Doubly Linked List |         O(n)	      |    O(n)	 |   O(n)   |   O(1)   |   O(1)   |
+|    Hash Table      |         O(n)	      |     - 	    |   O(1)   |   O(1)	  |   O(1)   |
+|       Stack	      |         O(n)	      |    O(n)	 |   O(n)  	|   O(1)   |   O(1)   |
+|       Queue	      |         O(n)	      |    O(n)	 |   O(n)	|   O(1)	  |   O(1)   |
+|   General Tree     |         O(n) 	   |    O(n)	 |   O(n)   |   O(1)   |   O(n)   |
+| Binary Search Tree |         O(n)	      |   O(logn)  |  O(logn) |  O(logn) |  O(logn) |
+|       Graph        |         O(n)       |     -      |     -    |     -    |     -    |  
+
+*For Big O Notation of Time Complexity for the individual operations on Graph Data Structure depends on method of implementation (via an Adjacency Matrix/Adjacency List)
 
 <br>
 
