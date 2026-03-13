@@ -228,7 +228,7 @@ Here are the Instance Methods and functions available in the 'BinarySearchTreeNo
    + delete_node (Instance Method)
    + build_electronics_tree (function)
 
-Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’’):
+Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’):
 ```
         -> 88
     -> 27
@@ -257,7 +257,7 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Max
    + _print_heap_recursive (Instance Method)
    + build_max_heap (function)
 
-Visualisation of the Max Heap Data Structure (from ‘print_heap()’’):
+Visualisation of the Max Heap Data Structure (from ‘print_heap()’):
 ```
         -> 88
     -> 27
@@ -286,7 +286,7 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Min
    + _print_heap_recursive (Instance Method)
    + build_min_heap (function)
 
-Visualisation of the Min Heap Data Structure (from ‘print_heap()’’):
+Visualisation of the Min Heap Data Structure (from ‘print_heap()’):
 ```
         -> 88
     -> 27
