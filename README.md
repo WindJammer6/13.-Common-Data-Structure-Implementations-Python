@@ -245,22 +245,17 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
 <br>
 
 ### [Max Heap Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/8.%20Max_Heap.py) <a name = "maxheap"></a>
-Here are the Instance Methods and functions available in the 'BinarySearchTreeNode' class:
-+ Under the ‘BinarySearchTreeNode' class:
-   + _init_ (Special Method)
-   + depth_first_search_in_order_traversal (Instance Method)
-   + depth_first_search_pre_order_traversal (Instance Method)
-   + depth_first_search_post_order_traversal (Instance Method)
-   + search_binary_search_tree (Instance Method)
-   + print_binary_search_tree (Instance Method)
-   + search_binary_search_tree (Instance Method)
-   + calculate_sum (Instance Method)
-   + find_min (Instance Method)
-   + find_max (Instance Method)
-   + delete_node (Instance Method)
-   + build_electronics_tree (function)
+Here are the Instance Methods and functions available in the 'HeapNode' and 'MaxHeap' classes:
++ Under the 'HeapNode' class:
+   + __init__ (Special Method)
++ Under the 'MaxHeap' class:
+   + __init__ (Special Method)
+   + max_heapify (Instance Method)
+   + insert (Instance Method)
+   + delete_and_extract_root_node (Instance Method)
+   + build_max_heap (function)
 
-Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’’):
+Visualisation of the Max Heap Data Structure (from ‘build_max_heap()’’):
 ```
         -> 88
     -> 27
@@ -276,23 +271,18 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
 
 <br>
 
-### [Binary Search Tree Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/7.%20Binary_Search_Tree.py) <a name = "binarysearchtree"></a>
-Here are the Instance Methods and functions available in the 'BinarySearchTreeNode' class:
-+ Under the ‘BinarySearchTreeNode' class:
-   + _init_ (Special Method)
-   + depth_first_search_in_order_traversal (Instance Method)
-   + depth_first_search_pre_order_traversal (Instance Method)
-   + depth_first_search_post_order_traversal (Instance Method)
-   + search_binary_search_tree (Instance Method)
-   + print_binary_search_tree (Instance Method)
-   + search_binary_search_tree (Instance Method)
-   + calculate_sum (Instance Method)
-   + find_min (Instance Method)
-   + find_max (Instance Method)
-   + delete_node (Instance Method)
-   + build_electronics_tree (function)
+### [Min Heap Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/8.%20Min_Heap.py) <a name = "minheap"></a>
+Here are the Instance Methods and functions available in the 'HeapNode' and 'MinHeap' classes:
++ Under the 'HeapNode' class:
+   + __init__ (Special Method)
++ Under the 'MinHeap' class:
+   + __init__ (Special Method)
+   + min_heapify (Instance Method)
+   + insert (Instance Method)
+   + delete_and_extract_root_node (Instance Method)
+   + build_min_heap (function)
 
-Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’’):
+Visualisation of the Min Heap Data Structure (from ‘build_min_heap()’’):
 ```
         -> 88
     -> 27
@@ -307,7 +297,7 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
 <br>
 
 <br>
-
+        
 ### Graph Data Structures <a name = "graph"></a>
 These Graph Data Structures are implemented using an Adjacency List. There is another common way to implement Graph Data Structures, as an Adjacency Matrix, but I find Adjacency List Graph Data Structures easier to understand. Please note that while Graph Data Structures should be able to take duplicates, but in these Graph Data Structure Python implementations I did not implement them to be able to. (I have a few ideas of how it can be done (I've shared them in my seperate repository ['12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python'](https://github.com/WindJammer6/12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python)), but it is too troublesome so I'll leave this as it is for now)
 
