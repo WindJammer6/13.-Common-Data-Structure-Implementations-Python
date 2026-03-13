@@ -54,6 +54,7 @@ Notes:
 |       Queue	      |         O(n)	      |    O(n)	 |   O(n)	|   O(1)	  |   O(1)   |
 |   General Tree     |         O(n) 	   |    O(n)	 |   O(n)   |   O(1)   |   O(n)   |
 | Binary Search Tree |         O(n)	      |   O(logn)  |  O(logn) |  O(logn) |  O(logn) |
+|       Heap       |         O(n)	      |   O(n)  |   O(n)  |  O(logn) |  O(logn) |
 |       Graph        |         O(n)       |     -      |     -    |     -    |     -    |  
 
 *For Big O Notation of Time Complexity for the individual operations on Graph Data Structure depends on method of implementation (via an Adjacency Matrix/Adjacency List)
