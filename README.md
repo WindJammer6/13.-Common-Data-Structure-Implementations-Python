@@ -25,6 +25,8 @@ Here are the common Data Structure Python implementations in this compilation:
    + Tree Data Structures:
       + [General Tree Data Structure](#generaltree)
       + [Binary Search Tree Data Structure](#binarysearchtree)
+          + [Max Heap Data Structure](#maxheap)
+          + [Min Heap Data Structure](#minheap)
    + Graph Data Structures:
       + Adjacency List Graph Data Structures:
         + [Adjacency List Directed Graph Data Structure](#graph)
@@ -242,14 +244,78 @@ Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_sea
 
 <br>
 
+### [Max Heap Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/8.%20Max_Heap.py) <a name = "maxheap"></a>
+Here are the Instance Methods and functions available in the 'BinarySearchTreeNode' class:
++ Under the ‘BinarySearchTreeNode' class:
+   + _init_ (Special Method)
+   + depth_first_search_in_order_traversal (Instance Method)
+   + depth_first_search_pre_order_traversal (Instance Method)
+   + depth_first_search_post_order_traversal (Instance Method)
+   + search_binary_search_tree (Instance Method)
+   + print_binary_search_tree (Instance Method)
+   + search_binary_search_tree (Instance Method)
+   + calculate_sum (Instance Method)
+   + find_min (Instance Method)
+   + find_max (Instance Method)
+   + delete_node (Instance Method)
+   + build_electronics_tree (function)
+
+Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’’):
+```
+        -> 88
+    -> 27
+            -> 23
+        -> 20
+-> 15
+        -> 14
+    -> 12
+        -> 7
+```
+
+<br>
+
+<br>
+
+### [Binary Search Tree Data Structure](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/7.%20Binary_Search_Tree.py) <a name = "binarysearchtree"></a>
+Here are the Instance Methods and functions available in the 'BinarySearchTreeNode' class:
++ Under the ‘BinarySearchTreeNode' class:
+   + _init_ (Special Method)
+   + depth_first_search_in_order_traversal (Instance Method)
+   + depth_first_search_pre_order_traversal (Instance Method)
+   + depth_first_search_post_order_traversal (Instance Method)
+   + search_binary_search_tree (Instance Method)
+   + print_binary_search_tree (Instance Method)
+   + search_binary_search_tree (Instance Method)
+   + calculate_sum (Instance Method)
+   + find_min (Instance Method)
+   + find_max (Instance Method)
+   + delete_node (Instance Method)
+   + build_electronics_tree (function)
+
+Visualisation of the Binary Search Tree Data Structure (from ‘print_binary_search_tree()’’):
+```
+        -> 88
+    -> 27
+            -> 23
+        -> 20
+-> 15
+        -> 14
+    -> 12
+        -> 7
+```
+
+<br>
+
+<br>
+
 ### Graph Data Structures <a name = "graph"></a>
 These Graph Data Structures are implemented using an Adjacency List. There is another common way to implement Graph Data Structures, as an Adjacency Matrix, but I find Adjacency List Graph Data Structures easier to understand. Please note that while Graph Data Structures should be able to take duplicates, but in these Graph Data Structure Python implementations I did not implement them to be able to. (I have a few ideas of how it can be done (I've shared them in my seperate repository ['12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python'](https://github.com/WindJammer6/12.-Data-Structures-and-Algorithms-Learning-and-Practice-Python)), but it is too troublesome so I'll leave this as it is for now)
 
 I have made the 4 different types of Graph Data Structures:
-1. [Adjacency List Directed Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/8.%20Adjacency_List_Directed_Graph.py)
-2. [Adjacency List Undirected Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/9.%20Adjacency_List_Undirected_Graph.py)
-3. [Adjacency List Directed Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/910.%20Adjacency_List_Directed_Weighted_Graph)
-4. [Adjacency List Undirected Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/911.%20Adjacency_List_Undirected_Weighted_Graph_Data_Structure.py)
+1. [Adjacency List Directed Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/910.%20Adjacency_List_Directed_Graph.py)
+2. [Adjacency List Undirected Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/911.%20Adjacency_List_Undirected_Graph.py)
+3. [Adjacency List Directed Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/912.%20Adjacency_List_Directed_Weighted_Graph)
+4. [Adjacency List Undirected Weighted Graph](https://github.com/WindJammer6/13.-Common-Data-Structure-Implementations-Python/blob/main/913.%20Adjacency_List_Undirected_Weighted_Graph_Data_Structure.py)
 
 They are mostly quite similar, with good understanding of Graph Data Structures and with slight modifications to one of them, I was able to quickly convert it to the other types.
 
