@@ -253,9 +253,11 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Max
    + max_heapify (Instance Method)
    + insert (Instance Method)
    + delete_and_extract_root_node (Instance Method)
+   + print_heap (Instance Method) 
+   + _print_heap_recursive (Instance Method)
    + build_max_heap (function)
 
-Visualisation of the Max Heap Data Structure (from ‘build_max_heap()’’):
+Visualisation of the Max Heap Data Structure (from ‘print_heap()’’):
 ```
         -> 88
     -> 27
@@ -280,9 +282,11 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Min
    + min_heapify (Instance Method)
    + insert (Instance Method)
    + delete_and_extract_root_node (Instance Method)
+   + print_heap (Instance Method) 
+   + _print_heap_recursive (Instance Method)
    + build_min_heap (function)
 
-Visualisation of the Min Heap Data Structure (from ‘build_min_heap()’’):
+Visualisation of the Min Heap Data Structure (from ‘print_heap()’’):
 ```
         -> 88
     -> 27
