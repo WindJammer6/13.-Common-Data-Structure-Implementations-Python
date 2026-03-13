@@ -117,7 +117,7 @@ class MaxHeap:
                 self._print_heap_recursive(node.right, level + 1)
 
 
-def build_heap(elements):
+def build_max_heap(elements):
     heap = MaxHeap()
     
     for elem in elements:
@@ -128,7 +128,7 @@ def build_heap(elements):
 
 if __name__ == '__main__':
     numbers = [20, 15, 10, 5, 7, 6, 2, 1]
-    numbers_max_heap = build_heap(numbers)
+    numbers_max_heap = build_max_heap(numbers)
 
     print("Initial heap:")
     numbers_max_heap.print_heap()
