@@ -25,8 +25,8 @@ Here are the common Data Structure Python implementations in this compilation:
    + Tree Data Structures:
       + [General Tree Data Structure](#generaltree)
       + [Binary Search Tree Data Structure](#binarysearchtree)
-          + [Max Heap Data Structure](#maxheap)
-          + [Min Heap Data Structure](#minheap)
+      + [Max Heap Data Structure](#maxheap)
+      + [Min Heap Data Structure](#minheap)
    + Graph Data Structures:
       + Adjacency List Graph Data Structures:
         + [Adjacency List Directed Graph Data Structure](#graph)
