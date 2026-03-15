@@ -110,11 +110,13 @@ class MaxHeap:
 
     def _print_heap_recursive(self, node, level):
         if node:
-            print("   " * level + "|__" + str(node.data))
-            if node.left:
-                self._print_heap_recursive(node.left, level + 1)
             if node.right:
                 self._print_heap_recursive(node.right, level + 1)
+
+            print(' ' * 4 * level + '-> ' + str(node.data))
+
+            if node.left:
+                self._print_heap_recursive(node.left, level + 1)
 
 
 def build_max_heap(elements):
