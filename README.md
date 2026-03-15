@@ -259,14 +259,14 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Max
 
 Visualisation of the Max Heap Data Structure (from ‘print_heap()’):
 ```
-        -> 88
-    -> 27
-            -> 23
-        -> 20
--> 15
-        -> 14
-    -> 12
+        -> 2
+    -> 10
+        -> 6
+-> 20
         -> 7
+    -> 15
+        -> 5
+            -> 1
 ```
 
 <br>
@@ -288,14 +288,14 @@ Here are the Instance Methods and functions available in the 'HeapNode' and 'Min
 
 Visualisation of the Min Heap Data Structure (from ‘print_heap()’):
 ```
-        -> 88
-    -> 27
-            -> 23
-        -> 20
--> 15
-        -> 14
-    -> 12
+        -> 6
+    -> 5
+        -> 15
+-> 1
+        -> 10
+    -> 2
         -> 7
+            -> 20
 ```
 
 <br>
